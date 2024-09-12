@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        android:interpolator="@android:anim/decelerate_interpolator"/>
+    <!--
+    interpolator
+    accelerate_interpolator : 애니메이션 효과를 점점 빠르게 나타나도록 만듭니다.
+    decelerate_interpolator : 애니메이션 효과를 점점 느리게 나타나도록 만듭니다.
+    accelerate_decelerate_interpolator : 점점 빠르다가 점점 느리게 나타나도록 만듭니다.
+    anticipate_interpolator : 시작 위치에서 조금 뒤로 당겼다가 시작하록 만듭니다.
+    overshoot_interpolator : 종료 위치에서 조금 지나쳤다가 종료되도록 만듭니다.
+    anticipate_overshoot_interpolator 시작 위치에서 조금 뒤로 당겼다가 시작한 후 종료 위치에서 조금 지나쳤다가 종료
+    bounce_interpolator : 종료 위치에서 튀도록 만듭니다.
+    -->
+</set>
