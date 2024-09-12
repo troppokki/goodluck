@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="30sp"
         android:background="@drawable/top_border"
-        android:text="   친한숫자 전체  "
+        android:text="   친한숫자 전체1  "
         android:gravity="left|center"
         android:elevation="2sp"/>
     <LinearLayout
